@@ -19,6 +19,8 @@ import DataBindingList from "@/views/DataBindingList";
 import DataBindingVif from "@/views/DataBindingVif";
 import EventClick from "@/views/EventClick";
 import EventChange from "@/views/EventChange";
+import Computed from "@/views/Computed";
+import Watch2 from "@/views/Watch2";
 
 Vue.use(VueRouter)
 
@@ -107,6 +109,14 @@ const routes = [
   {
     path:'/eventchange',
     component: EventChange
+  },
+  {
+    path:'/computed',
+    component: Computed
+  },
+  {
+    path:'/watch2',
+    component: Watch2
   }
 ]
 

@@ -2,15 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>|
-      <router-link to="/databinding">DataBind</router-link> ||
-      <router-link to="/databindinghtml">DataBindingHtml</router-link> <br>
-      <router-link to="/databindinginputtext">DataBidingInputText</router-link> |
-      <router-link to="/databindinginputnumber">DataBindingInputNumber</router-link> |
-      <router-link to="/textarea">TextArea</router-link>|
-      <router-link to="/databindingcheckbox">DataBindingCheckbox</router-link> <br>
-      <router-link to="/databindingattribute">DataBindingAttribute</router-link> |
-      <router-link to="/databindingstyle">DataBindingStyle</router-link>
+      <router-link to="/computed">Computed</router-link>
+      <router-link to="/watch2">Watch2</router-link>
     </div>
     <router-view/>
   </div>
